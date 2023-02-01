@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/box_bg"
+	android:padding="20dp"
+	android:layout_margin="10dp">
+
+	<ImageView
+		android:layout_width="match_parent"
+		android:layout_height="80dp"
+		android:src="@drawable/no_signal"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="NO INTERNET"
+		android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:textColor="#FF000000"
+		android:textStyle="bold"
+		android:layout_marginBottom="10dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Check your internet connection and try again"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:textColor="#FF3F3F3F"
+		android:layout_marginBottom="10dp"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dp"
+		android:gravity="center">
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Okey"
+			android:background="@drawable/no_internet_alert_btn"
+			android:textColor="#FFFFFFFF"
+			android:id="@+id/okeyBtn"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

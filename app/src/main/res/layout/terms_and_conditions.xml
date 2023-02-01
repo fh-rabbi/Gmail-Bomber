@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="15dp">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Terms And Conditions"
+		android:layout_gravity="center"
+		android:textColor="#FFFF0000"
+		android:textSize="18sp"
+		android:textStyle="bold"
+		android:fontFamily="@font/unbounded"
+		android:gravity="center"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Hi there 🖐️, this app is made only for educational purpose.So don't use this app for any bad work, if you use it for bad work or do any kind of crime by using this app, then the developer of this app will not be responsible, Keep in mind."
+		android:layout_marginTop="20dp"
+		android:textColor="#FF000000"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:fontFamily="@font/opensans"/>
+
+</LinearLayout>
+

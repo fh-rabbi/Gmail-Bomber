@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="15dp"
+	android:gravity="center">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Bombing Started"
+		android:textSize="22sp"
+		android:textColor="#FF0D8D37"
+		android:textStyle="bold"
+		android:fontFamily="@font/opensans"/>
+
+	<ProgressBar
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:indeterminateDrawable="@drawable/progress"
+		android:layout_marginBottom="10dp"
+		android:layout_marginTop="10dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="For stop bombing please close the app !"
+		android:textStyle="bold"
+		android:textColor="#FFFF0000"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Stop Bombing"
+		android:textColor="#FFFFFFFF"
+		android:layout_marginTop="10dp"
+		android:textSize="12sp"
+		android:paddingRight="10dp"
+		android:paddingLeft="10dp"
+		android:id="@+id/stopInAlert"
+		android:background="@drawable/stop_btn"
+		android:fontFamily="@font/unbounded"
+		android:textAllCaps="false"/>
+
+</LinearLayout>
+

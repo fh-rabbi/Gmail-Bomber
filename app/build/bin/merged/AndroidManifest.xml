@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rabbi.gmailbomber"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.rabbi.gmailbomber.Applications"
+        android:allowBackup="true"
+        android:icon="@drawable/icon2"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:resizeableActivity="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.rabbi.gmailbomber.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.rabbi.gmailbomber.StartBombing" />
+        <activity android:name="com.rabbi.gmailbomber.TermsAndConditions" />
+        <activity android:name="com.rabbi.gmailbomber.HowToUse" />
+        <activity
+            android:name="com.rabbi.gmailbomber.DebugActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="4.0" />
+    </application>
+
+</manifest>

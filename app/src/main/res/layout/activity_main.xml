@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#FFFFFFFF"
+	android:fillViewport="true">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:weightSum="5"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Gmail Bomber"
+			android:textSize="28sp"
+			android:textStyle="bold"
+			android:layout_gravity="center_horizontal"
+			android:textColor="#FF141B61"
+			android:layout_marginTop="20dp"
+			android:layout_weight="1"
+			android:fontFamily="@font/unbounded"/>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="4">
+
+			<ImageView
+				android:src="@drawable/gmail"
+				android:layout_height="80dp"
+				android:layout_gravity="center"
+				android:layout_width="wrap_content"
+				android:layout_marginBottom="15dp"/>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Start Gmail Bombing"
+				android:textColor="#FFFFFFFF"
+				android:background="@drawable/button_style"
+				android:id="@+id/startBombingBtn"
+				android:fontFamily="@font/opensans"
+				android:layout_marginRight="15dp"
+				android:layout_marginLeft="15dp"/>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Terms And Conditions"
+				android:background="@drawable/button_style"
+				android:textColor="#FFFFFFFF"
+				android:layout_marginTop="10dp"
+				android:id="@+id/termsBtn"
+				android:fontFamily="@font/opensans"
+				android:layout_marginRight="15dp"
+				android:layout_marginLeft="15dp"/>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Generate App Password"
+				android:background="@drawable/button_style"
+				android:textColor="#FFFFFFFF"
+				android:layout_marginTop="10dp"
+				android:id="@+id/howToUseBtn"
+				android:fontFamily="@font/opensans"
+				android:layout_marginLeft="15dp"
+				android:layout_marginRight="15dp"/>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="About Developer"
+				android:background="@drawable/button_style"
+				android:textColor="#FFFFFFFF"
+				android:layout_marginTop="10dp"
+				android:id="@+id/aboutBtn"
+				android:fontFamily="@font/opensans"
+				android:layout_marginRight="15dp"
+				android:layout_marginLeft="15dp"/>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="More Apps"
+				android:background="@drawable/button_style"
+				android:textColor="#FFFFFFFF"
+				android:layout_marginTop="10dp"
+				android:id="@+id/moreAppsBtn"
+				android:fontFamily="@font/opensans"
+				android:layout_marginRight="15dp"
+				android:layout_marginLeft="15dp"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="WARNING: This app is made only for educational purpose.So, don't use this app in illegel purpose"
+				android:textColor="#FF0F0760"
+				android:layout_marginTop="10dp"
+				android:layout_gravity="center_horizontal"
+				android:gravity="center_horizontal"
+				android:layout_margin="21dp"
+				android:fontFamily="@font/opensans"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</ScrollView>
+

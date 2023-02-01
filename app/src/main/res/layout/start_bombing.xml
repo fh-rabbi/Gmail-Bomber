@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#FF2800D2"
+	android:fillViewport="true">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Gmail Bombing"
+			android:layout_gravity="center"
+			android:textSize="25sp"
+			android:textColor="#FFFFFFFF"
+			android:layout_marginTop="15dp"
+			android:fontFamily="@font/unbounded"/>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="25dp"
+			android:padding="10dp"
+			android:background="@drawable/box_bg">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Your Name"
+					android:layout_marginLeft="2dp"/>
+
+				<EditText
+					android:layout_width="match_parent"
+					android:ems="10"
+					android:layout_height="wrap_content"
+					android:backgroundTint="#FF666666"
+					android:textCursorDrawable="@drawable/color_cursor"
+					android:id="@+id/name"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Your Gmail"
+					android:layout_marginLeft="2dp"/>
+
+				<EditText
+					android:layout_width="match_parent"
+					android:ems="10"
+					android:layout_height="wrap_content"
+					android:backgroundTint="#FF666666"
+					android:textCursorDrawable="@drawable/color_cursor"
+					android:id="@+id/gmail"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="NOTE: You should use your gmail-account app password.For generate app password please click on the [ Generate App Password] button that are available in the home screen."
+					android:textColor="#FFEFDC07"
+					android:background="#FF000000"
+					android:padding="6dp"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Your Gmail Password"
+					android:layout_marginLeft="2dp"/>
+
+				<EditText
+					android:layout_width="match_parent"
+					android:ems="10"
+					android:layout_height="wrap_content"
+					android:backgroundTint="#FF666666"
+					android:textCursorDrawable="@drawable/color_cursor"
+					android:id="@+id/password"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Target Mail"
+					android:layout_marginLeft="2dp"/>
+
+				<EditText
+					android:layout_width="match_parent"
+					android:ems="10"
+					android:layout_height="wrap_content"
+					android:backgroundTint="#FF666666"
+					android:textCursorDrawable="@drawable/color_cursor"
+					android:id="@+id/target"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Subject"
+					android:layout_marginLeft="2dp"/>
+
+				<EditText
+					android:layout_width="match_parent"
+					android:ems="10"
+					android:layout_height="wrap_content"
+					android:backgroundTint="#FF666666"
+					android:textCursorDrawable="@drawable/color_cursor"
+					android:id="@+id/subject"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Message"
+					android:layout_marginLeft="2dp"/>
+
+				<EditText
+					android:layout_width="match_parent"
+					android:ems="10"
+					android:layout_height="wrap_content"
+					android:backgroundTint="#FF666666"
+					android:textCursorDrawable="@drawable/color_cursor"
+					android:id="@+id/message"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Number of Mail"
+					android:layout_marginLeft="2dp"/>
+
+				<EditText
+					android:layout_width="match_parent"
+					android:ems="10"
+					android:layout_height="wrap_content"
+					android:backgroundTint="#FF666666"
+					android:textCursorDrawable="@drawable/color_cursor"
+					android:inputType="number"
+					android:id="@+id/amount"/>
+
+			</LinearLayout>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Start Bombing"
+				android:id="@+id/startBtn"
+				android:textColor="#FFFFFFFF"
+				android:layout_marginTop="10dp"
+				android:layout_marginBottom="10dp"
+				android:background="@drawable/btn"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</ScrollView>
+

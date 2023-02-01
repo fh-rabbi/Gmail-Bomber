@@ -1,0 +1,18 @@
+# view AndroidManifest.xml #generated:14
+-keep class com.rabbi.gmailbomber.Applications { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class com.rabbi.gmailbomber.DebugActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class com.rabbi.gmailbomber.HowToUse { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class com.rabbi.gmailbomber.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:31
+-keep class com.rabbi.gmailbomber.StartBombing { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.rabbi.gmailbomber.TermsAndConditions { <init>(...); }
+
